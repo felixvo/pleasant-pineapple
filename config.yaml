@@ -1,0 +1,26 @@
+title: Stackbit Fresh Theme
+baseURL: /
+params:
+  layout_style: overflow
+  palette: blue
+  header:
+    title: Felix Vo
+    tagline: "I'm a software engineer with four years of experience in building backend services for apps/website.  \r\nTech stack: Go, Java, Kafka, Redis, MySQL"
+    profile_img: >-
+      https://res.cloudinary.com/practicaldev/image/fetch/s---m0qC4wy--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/13772/b570e1d5-afd3-4c1c-a2be-c4a199c192f6.jpg
+    bg: dark
+    has_nav: true
+    has_social: true
+  footer:
+    content: '&copy; All rights reserved.'
+    links:
+      - text: Made with Stackbit
+        url: 'https://www.stackbit.com'
+        new_window: true
+      - text: Generated from DEV
+        url: 'https://dev.to/connecting-with-stackbit'
+        new_window: true
+disableKinds:
+  - RSS
+  - taxonomy
+  - taxonomyTerm
